@@ -12,9 +12,8 @@
                 <li *ngFor="let i of this.newbarLinks"><a class="newbarlink_a-tag" routerLink="{{i.linkAddress}}"
                         routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
                         ariaCurrentWhenActive="page">{{i.linkName}}</a></li>
-                <li><a class="gettingStarted_a-tag" routerLink="{{this.newbarLinks[1].linkAddress}}"
-                        routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
-                        ariaCurrentWhenActive="page">Get Started</a></li>
+                <li><a class="gettingStarted_a-tag" routerLink="{{this.newbarLinks[1].linkAddress}}">Get Started</a>
+                </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
