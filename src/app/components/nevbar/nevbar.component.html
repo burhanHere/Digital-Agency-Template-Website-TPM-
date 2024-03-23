@@ -1,0 +1,22 @@
+<div class="main_div-tag">
+    <div class="newBarContainer_div-tag">
+        <div class="logo_div-tag">
+            <h1><a class="logo_A-Tag_logo_h4-tag" routerLink="{{this.newbarLinks[0].linkAddress}}">TPM</a>
+            </h1>
+            <h4 class="logo_A-Tag_logo_h4-tag">TOP PAGE MANAGEMENT</h4>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+        <nav>
+            <ul class="nevbar_ul-tag">
+                <li *ngFor="let i of this.newbarLinks"><a class="newbarlink_a-tag" routerLink="{{i.linkAddress}}"
+                        routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">{{i.linkName}}</a></li>
+                <li><a class="gettingStarted_a-tag" routerLink="{{this.newbarLinks[1].linkAddress}}"
+                        routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+    </div>
+</div>
