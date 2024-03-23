@@ -1,0 +1,80 @@
+.main_div-tag {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #444444;
+}
+
+.aboutUs_div-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.aboutUs_div-tag hr {
+    width: 10%;
+    height: 0.1rem;
+    background-color: #3498db;
+}
+
+.aboutUs_div-tag h2 {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.aboutUsContent_div-tag {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUsContent_div-tag div {
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+}
+
+.aboutUsContent_div-tag ul {
+    list-style-image: url('../../../assets/done_all_FILL0_wght400_GRAD0_opsz24.svg');
+    list-style-position: inside;
+}
+
+.gettingStarted_a-tag {
+    text-decoration: none;
+    color: #3498db;
+    border: 2px solid rgb(52, 152, 219);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 7rem;
+    text-wrap: nowrap;
+}
+
+.counts_div-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.countsImage_div-tag {
+    width: 50%;
+}
+
+.countsContect_div-tag {
+    width: 50%;
+    display: grid;
+    gap: 5%;
+}
+
+.countsContectRow_div-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
